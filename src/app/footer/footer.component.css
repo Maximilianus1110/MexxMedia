@@ -1,0 +1,42 @@
+footer {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #333; /* Dunkler Hintergrund */
+  color: white; /* Helle Schriftfarbe */
+  padding: 2rem 1rem; /* Abstand nach innen */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Verteilt die Abschnitte */
+  gap: 2rem; /* Abstand zwischen den Sektionen */
+}
+
+.footer-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-section img {
+  max-width: 30px;
+  height: 30px;
+}
+
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer-bottom a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}

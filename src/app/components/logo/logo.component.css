@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'LogoSchriftart';
+  src: url('/public/fonts/balham.otf') format('opentype'); /* 'opentype' für OTF */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.background{
+  display: flex;
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  background-color: #0D0D0D;
+}
+
+.logo-schriftzug{
+  font-family: 'LogoSchriftart', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+#headline{
+  font-size: 80px;
+}

@@ -1,0 +1,52 @@
+<section class="hero">
+  <div class="hero-content">
+   <img  [ngClass]="{'bild-gross': isScrolled, 'bild-klein': !isScrolled}" [@fadeInSlow] [src]="logoPath" alt="MAXXMEDIA" >
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <p class="teilüberschrift">Über MexxMedia</p>
+    <p>Willkommen bei MexxMedia, Ihrem Partner für moderne und kreative Internetpräsenz!<br>
+       Wir haben uns darauf spezialisiert, lokale Unternehmen dabei zu unterstützen, online sichtbar und erfolgreich zu werden. <br>
+       Egal, ob Instagram, TikTok oder eine professionelle Webseite <br>
+       – wir bieten Ihnen maßgeschneiderte Lösungen, um Ihre Marke ins digitale Rampenlicht zu stellen.</p>
+  </div>
+</section>
+
+
+<!--Karten-->
+<section class="leistungen">
+  <div class="container">
+    <p class="teilüberschrift">Unsere Leistungen</p>
+    <div class="leistungen-grid">
+      <div class="leistung">
+        <h4>Social Media Management</h4>
+        <img src="assets/social-Media.png" alt="social-Media">
+        <p>Wir verwalten Ihre Social Media Kanäle professionell und effizient.</p>
+      </div>
+      <div class="leistung">
+        <h4>Content Creation</h4>
+        <img src="assets/camera.png" alt="Kamera">
+        <p>Wir erstellen hochwertigen Content, der Ihre Zielgruppe begeistert.</p>
+      </div>
+      <div class="leistung">
+        <h4>Erstellung und Verwaltung moderner Webseiten</h4>
+        <img src="assets/webseite-erstellen-lassen.png" alt="Webseite erstellen">
+        <p>Ob ansprechendes Design, intuitive Bedienbarkeit oder optimale Performance
+          <br> – wir sorgen dafür, dass Ihre Marke im Internet glänzt.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="referenzen">
+  <div class="container">
+    <h3>Unsere Kunden</h3>
+    <div class="referenzen-logos">
+      <img src="assets/kunde1.png" alt="Kunde 1 Logo">
+      <img src="assets/kunde2.png" alt="Kunde 2 Logo">
+      <img src="assets/kunde3.png" alt="Kunde 3 Logo">
+    </div>
+  </div>
+</section>
