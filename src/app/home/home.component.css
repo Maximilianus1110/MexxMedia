@@ -29,6 +29,7 @@
  position: absolute;
  bottom: -30%; /* Bild am unteren Rand positionieren */
   transform: translateX(-50%);  /*Bild horizontal um 50% seiner Breite nach links verschieben */
+  /*border-radius: 0 0 20px 20px ;*/
 }
 
 .hero-content {

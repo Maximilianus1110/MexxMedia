@@ -18,17 +18,17 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 export class HomeComponent {
 
   isScrolled = false;
-  logoPath = 'assets/logo1.png';
+  logoPath = 'assets/logo.png';
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
     if
     (window.pageYOffset > 0) { // Sobald gescrollt wird
       this.isScrolled = true;
-      this.logoPath = 'assets/logo-lang.png'
+      this.logoPath = 'assets/LogLang.png'
     } else {
       this.isScrolled = false;
-      this.logoPath = 'assets/logo1.png';
+      this.logoPath = 'assets/logo.png';
     }
   }
 }

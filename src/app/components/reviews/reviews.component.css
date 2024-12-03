@@ -1,0 +1,16 @@
+.hintergrundBox{
+  min-height: 220px;
+  background-size: cover;
+  background-color: #7dc1f3;
+
+  border-top: 3px groove #333;
+  border-bottom: 3px groove #333;
+}
+
+.referenzen-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Logos umbrechen */
+  gap: 20px;
+}
