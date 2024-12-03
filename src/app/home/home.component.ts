@@ -18,7 +18,7 @@ import {animate, state, style, transition, trigger} from '@angular/animations';
 export class HomeComponent {
 
   isScrolled = false;
-  logoPath = 'assets/logo.png';
+  logoPath = 'assets/logo1.png';
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
@@ -28,7 +28,7 @@ export class HomeComponent {
       this.logoPath = 'assets/logo-lang.png'
     } else {
       this.isScrolled = false;
-      this.logoPath = 'assets/logo.png';
+      this.logoPath = 'assets/logo1.png';
     }
   }
 }

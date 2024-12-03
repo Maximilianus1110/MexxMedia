@@ -11,13 +11,21 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './footer/footer.component';
 import {MatIcon} from '@angular/material/icon';
+import { AboutComponent } from './components/about/about.component';
+import {ServicesComponent} from './components/services/services.component';
+import { ReviewsComponent } from './components/reviews/reviews.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LogoComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ServicesComponent,
+    ReviewsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

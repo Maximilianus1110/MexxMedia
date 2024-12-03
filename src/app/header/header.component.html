@@ -1,14 +1,17 @@
 <header [ngClass]="{'header-dunkel': isScrolled, 'header-hell': !isScrolled}">
   <div class="container">
     <div class="logo">
-      <img [src]="logoIcon" alt="MexxMedia Logo">
+      <a routerLink="/">
+        <img [src]="logoIcon" alt="MexxMedia Logo">
+      </a>
     </div>
     <nav>
       <ul>
         <li><a routerLink="/">Startseite</a></li>
-        <li><a routerLink="/leistungen">Leistungen</a></li>
-        <li><a routerLink="/referenzen">Referenzen</a></li>
-        <li><a routerLink="/kontakt">Kontakt</a></li>
+        <li><a routerLink="/about-us">Über uns</a></li>
+        <li><a routerLink="/services">Leistungen</a></li>
+        <li><a routerLink="/reviews">Referenzen</a></li>
+        <li><a routerLink="/contact">Kontakt</a></li>
       </ul>
     </nav>
   </div>

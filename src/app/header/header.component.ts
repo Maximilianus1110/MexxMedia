@@ -1,11 +1,13 @@
 import { Component, HostListener } from '@angular/core';
 import {NgClass, NgOptimizedImage} from '@angular/common';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   imports: [
     NgClass,
+    RouterLink,
   ],
   styleUrls: ['./header.component.css']
 })

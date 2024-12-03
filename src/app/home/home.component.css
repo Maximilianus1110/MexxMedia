@@ -1,9 +1,8 @@
 /* Hero Bereich */
 .hero {
-  /*background-color: #373535;
-  border-radius:20px;*/
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7e/Knowledge_Is_Human_Homepage_Animated_Banner.gif"); /* Hintergrundbild https://i.gifer.com/2uSY.gif*/
-  background-size: cover;
+  background-image: url("https://media.istockphoto.com/id/2129245265/de/foto/office-workplace-with-laptop-and-smart-phone-on-wood-table-workspace-desktop-computer-office.jpg?s=2048x2048&w=is&k=20&c=9Uh1d7AUKLqrLsFBuBg7MfSftbBYpyntsvv_tchn6BQ=");
+  /* Hintergrundbild https://i.gifer.com/2uSY.gif*/
+  /*https://upload.wikimedia.org/wikipedia/commons/7/7e/Knowledge_Is_Human_Homepage_Animated_Banner.gif*/
   background-position: center;
   min-height: 500px;
 
@@ -14,92 +13,26 @@
   position: relative;
 }
 
-.container p{
-  margin-top: 50px;
-}
-.bild-klein{max-width: 50%; /* Bild skalieren */
-  height: auto;
+.bild-klein{
+  max-width: 50%; /* Bild skalieren */
+  max-height: 100%;
   position: absolute;
   bottom: -30%; /* Bild am unteren Rand positionieren */
   left: 50%; /* Bild horizontal zentrieren */
   transform: translateX(-50%); /* Bild horizontal um 50% seiner Breite nach links verschieben */
-  border-radius: 20px 20px 0 0;}
+  border-radius: 20px 20px 0 0;
+}
 
 .bild-gross{
-  transition: background-color 0.3s ease;
-  max-width: 100%; /* Bild skalieren */
-  height: auto;
-  position: absolute;
-  bottom: -30%; /* Bild am unteren Rand positionieren */
-  left: 50%; /* Bild horizontal zentrieren */
-  transform: translateX(-50%); /* Bild horizontal um 50% seiner Breite nach links verschieben */
-  border-radius:0 0;
+ min-width: 100%;
+ height: auto;
+ position: absolute;
+ bottom: -30%; /* Bild am unteren Rand positionieren */
+  transform: translateX(-50%);  /*Bild horizontal um 50% seiner Breite nach links verschieben */
 }
 
 .hero-content {
-  padding: 20px;
+  width: 100%; /* Der Container nimmt die volle Breite ein */
 }
 
-p{
-  font-size: 20px;
-}
-.teilüberschrift{
-  font-size: 50px;
-  font-weight: bold;
-  color: cornflowerblue;
-}
-/* Über Uns */
-.about {
-  margin-top: 220px;
-}
 
-/* Leistungen */
-.leistungen {
-  text-align: center;
-  padding: 0px 5% 0px 7%;
-}
-
-.leistungen img{
-  max-width: 60%; /* Bild skalieren */
-  height: auto;
-}
-
-.leistungen-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsives Grid */
-  gap: 20px;
-}
-
-.leistung {
-  text-align: center;
-  background-color: rgba(156, 187, 241, 0.11);
-  border: 1px solid #ddd;
-  padding: 40px;
-  max-width: 400px;
-  border-radius:20px;
-  box-shadow: 5px 4px 2px rgba(128, 128, 128, 0.29);
-}
-
-/* Referenzen */
-.referenzen {
-  padding: 40px 0;
-  text-align: center;
-}
-
-.referenzen-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; /* Logos umbrechen */
-  gap: 20px;
-}
-
-.referenzen-logos img {
-  max-height: 80px;
-}
-
-@media (max-width: 768px) {
-  .leistungen-grid {
-    grid-template-columns: 1fr; /* Leistungen untereinander */
-  }
-}
