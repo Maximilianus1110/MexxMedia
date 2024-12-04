@@ -29,6 +29,7 @@ import { SloganComponent } from './components/slogan/slogan.component';
     ContactComponent,
     SloganComponent
   ],
+
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
